@@ -4,7 +4,7 @@
     <router-link
       to="/"
       class="bg-clip-text font-extrabold tracking-widest text-5xl text-gray-300"
-      >Awesome Cat Pictures!</router-link
+      >Random Cat Pictures!</router-link
     >
   </div>
 </template>

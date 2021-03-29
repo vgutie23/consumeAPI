@@ -25,7 +25,7 @@ export const getCats = async () => {
   try {
     const resource = searchItem.value ? 'search' : ''
     const response = await api(resource, {
-      params: { limit: 100, order: 'ASC', size: 'thumb' },
+      params: { limit: 8, order: 'RANDOM', size: 'thumb' },
     })
     cats.value = response.data
   } catch (error) {
