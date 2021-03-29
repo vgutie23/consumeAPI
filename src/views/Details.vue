@@ -1,3 +1,4 @@
+<!--Vanessa Gutierrez 03/28/2021-->
 <template>
   <div v-if="cat" class="mt-8 grid justify-items-center space-y-4">
     <h1 class="text-2xl font-bold font-serif mb-4">
